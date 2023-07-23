@@ -1,0 +1,67 @@
+body{cursor: none;}
+/* a{
+    cursor: none; 
+}
+a:hover{cursor: none;} */
+.cursor {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transition-duration: 90ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+    z-index: 100!important;
+    background: rgb(73,29,77);
+    background: radial-gradient(circle, rgba(73,29,77,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 50%;
+  }
+
+  .cursor::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border: 8px solid var(--first-color);
+    border-radius: 50%;
+    padding: 3px!important;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+  }
+
+  @keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.6);
+    }
+  }
+
+  @keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.8);
+    }
+  }
+  @keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    75% {
+        transform: scale(1);
+        opacity: 0;
+    }
+  }
+        
+
+  .expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid  var(--first-color);
+  }

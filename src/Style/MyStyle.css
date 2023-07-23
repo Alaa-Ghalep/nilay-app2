@@ -1,0 +1,133 @@
+/*NavBar */
+
+/*Sectionone Start*/
+.parentdivone{
+  /* background-image: url('../Images/body.png'); */
+  /* background-image: linear-gradient(900deg,#491D4D 34%,transparent), url('../Images/body.png'); */
+  background-image: linear-gradient(2deg,#491D4D -50%,transparent), url('../Images/body.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 4rem;
+
+}
+.mySwiper{margin-top: 4rem;margin-bottom: 12rem;}
+.Slide{
+
+background: linear-gradient(180deg, rgba(108,77,125,0.5520540730337078) 0%, rgba(73,29,77,0.5183462078651686) 0%);
+  
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20%;
+}
+option:checked{
+  color: #fff;
+  background-color: #491d4d
+}
+select {
+color:#491D4D;
+font-weight: bold;
+
+}
+.mySwiper{box-shadow: 2px 2px 2px #491D4D;}
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+  z-index: 30;
+}
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+  z-index: 30;
+
+}
+@media (max-width: 575.98px) { 
+  .shewants{font-size: 22px;}
+  /* .mySwiper{} */
+  .downloadnow{margin-bottom: 20rem;}
+  .Slide{padding-top: 10%;}
+}
+.imgg{  
+ width: 70px;
+  }
+  .shadoww{box-shadow: 2px 3px 10px 2px #f1efef;}
+
+.bookservices{margin-bottom: 12rem;}
+/*Secrtionone End*/
+
+/*AboutUs Start*/
+#AboutUs{margin-bottom: 12rem;}
+/*AboutUs End*/
+
+/*Services Start*/
+#Services{margin-bottom: 12rem;}
+.parentServeces{
+ background-image: linear-gradient(8deg,#491D4D ,transparent), url('../Images/bg2.png');
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.imgServices{width: 40px;}
+
+.rounded-img{border-radius:25px 25px 0 0;}
+.rounded-div{border-radius:25px 25px 10px 10px;}
+/*Services End*/
+
+/*Contact Us Start*/
+.input{
+  border-radius: 10px;
+  height: 47px;
+}
+  .textarea{border-radius: 10px;
+    height: 110px;
+  padding-left: 15px !important; 
+
+}
+
+
+.btn-sm-square {
+    width: 40px;
+    height: 40px;
+    background-color: #491D4D !important;
+}
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.input:focus {
+  border-color: #491d4d;
+  /* box-shadow: 0px 2px 4px #491d4d; */
+  box-shadow: 1px 0.5px 1px 1px #491d4d;
+
+
+}
+.textarea:focus {
+  border-color: #491d4d;
+  box-shadow: 1px 0.5px 1px 1px #491d4d;
+}
+.left-inner-addon {
+  position: relative;
+}
+.left-inner-addon input {
+  padding-left: 15px !important; 
+}
+
+.bxs-message  {
+  position: absolute;
+  padding: 13px 22px;
+  pointer-events: none;
+  color:#491d4d
+}
+
+/*Contact Us End*/
+
+.txtcolor{color: #491D4D;}
